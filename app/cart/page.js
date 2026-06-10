@@ -6,7 +6,6 @@ import { deletecart } from '@/action/userintraction'
 import { incqty } from '@/action/userintraction'
 import { decqty } from '@/action/userintraction'
 import { initiate } from '@/action/userintraction'
-import { useSearchParams } from 'next/navigation'
 import { useRouter } from 'next/navigation'
 import Script from 'next/script'
 import { ToastContainer, toast } from "react-toastify";
@@ -23,10 +22,10 @@ const page = () => {
         const [cartdata, setcartdata] = useState([])
         const [cost, setcost] = useState(0)
         const router = useRouter()
-    const searchParams = useSearchParams();
+    
         useEffect(() => {
-          
-         if(searchParams.get("success")=="true"){
+          const params = new URLSearchParams(window.location.search);
+         if(params.get("success")=="true"){
           toast("🦄 order confirmed", {
                   position: "top-right",
                   autoClose: 5000,

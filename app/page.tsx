@@ -78,7 +78,7 @@ transition-all duration-300  '><button className='cursor-pointer'>View Menu </bu
       
       </div>
       <div className='w-6/7 gap-2 lg:gap-10 flex  mt-5 lg:mt-15 m-auto h-35 lg:h-80 rounded-4xl lg:flex items-center  bg-black/40 items-center text-white  '>
-      <div className='sm:w-1/6 w-30 h-full flex  items-center overflow-y-hidden'><img className='w-full  pl-5 ' src="img/fast.webp" loading='lazt' alt="" /></div>
+      <div className='sm:w-1/6 w-30 h-full flex  items-center overflow-y-hidden'><img className='w-full  pl-5 ' src="img/fast.webp"  alt="" /></div>
       <div className='w-4/5  justify-center h-4/5 flex flex-col items-center gap-2 sm:gap-5  '>
         <h1 className='fo italic lg:text-3xle w-full flex justify-center text-[16px] lg:text-4xl  '>Fast Service & Home Delivery</h1>
         <p className='pfo text-[6px] sm:text-[8px] lg:text-[16px] '>Enjoy fast and efficient service with freshly prepared meals served in no time. We maintain a clean and hygienic kitchen to ensure quality in every bite. Whether you dine in or order from home, our quick food delivery and seamless service guarantee a satisfying experience every time.</p>
