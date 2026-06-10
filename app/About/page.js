@@ -7,7 +7,7 @@ const About = () => {
     <div className='w-screen pt-15 mb-5'>
       <div className='w-screen flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-0 ' >
         <div className=' sm:w-2/5 w-screen flex justify-center '>
-            <img className=' w-3/5 sm:w-4/6' src="/img/cafelogo.webp" loading='lazy' alt="" />
+            <img className=' w-3/5 sm:w-4/6' src="/img/cafelogo.webp"  alt="" />
         </div>
         <div className=' w-screen  sm:w-2/5 justify-center flex flex-col pl-10 '>
             <h1 className='italic text-[35px] lg:text-7xl text-yellow-400 fo'>About Us</h1>

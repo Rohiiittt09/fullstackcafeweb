@@ -10,7 +10,7 @@ export default function Home() {
     }, [])
   return (
     <div className=' ' >
-      <div className='z-5 absolute  top-0 w-screen justify-center flex  h-120  ' ><img className='w-10/11 hidden md:flex  ' loading='lazy' src="img/cafehome.webp " alt="" /><img className='w-full top-0 flex md:hidden h-130  ' loading='lazy' src="img/cafebg101.webp " alt="" /></div>
+      <div className='z-5 absolute  top-0 w-screen justify-center flex  h-120  ' ><img className='w-10/11 hidden md:flex  '  src="img/cafehome.webp " alt="" /><img className='w-full top-0 flex md:hidden h-130  '  src="img/cafebg101.webp " alt="" /></div>
       <div className='relative z-20  top-0 h-120 bg-black/50 flex flex-col  justify-center  '>
       <div className='  w-full  h-4/5  flex flex-col justify-center '>
         <h1 className=' text-6xl sm:text-8xl   font-bold text-yellow-400 text-center 
@@ -40,7 +40,7 @@ transition-all duration-30OTHING ALL duration-3００  '><button className='curs
       <div className='w-screen bg-black/50 pb-10'>
       <div className='w-screen'><h1 className='lg:w-2/7 w-2/5 text-[22px]  lg:text-5xl fo italic sm:p-2   bg-black/75 items-center text-white shadow-[0_8px_20px_rgba(0,0,0,0.6),0_0_15px_rgba(255,215,0,0.4)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.8),0_0_25px_rgba(255,215,0,0.7)] rounded-r-2xl transition-all duration-300'>Special offer  </h1></div>
       <div className='w-6/7 gap-2 lg:gap-10 mt-5 lg:mt-15 m-auto h-35 lg:h-80  rounded-4xl flex justify-center bg-black/40 items-center text-white  '>
-      <div className='sm:w-1/6 w-30 h-full flex overflow-y-hidden   items-center '><img className='w-full   pl-5 ' src="img/offer1.jpg" loading='lazy' alt="" /></div>
+      <div className='sm:w-1/6 w-30 h-full flex overflow-y-hidden   items-center '><img className='w-full   pl-5 ' src="img/offer1.jpg"  alt="" /></div>
       <div className='w-4/5  justify-center h-4/5  flex flex-col items-center gap-2 sm:gap-5 '>
         <h1 className='fo italic lg:text-3xle w-full flex justify-center text-[16px] lg:text-4xl '>Weekend Special Offer</h1>
         <p className='pfo text-[6px] sm:text-[8px] lg:text-[16px] '>Buy 1 Get 1 FREE on any medium pizza!
@@ -56,7 +56,7 @@ transition-all duration-300  '><button className='cursor-pointer'>Explore pizza<
       <div className='w-screen bg-black/50   '>
       <div className='w-screen'><h1 className='lg:w-2/7 w-2/5 text-[22px]  lg:text-5xl fo italic   bg-black/75 items-center text-white shadow-[0_8px_20px_rgba(0,0,0,0.6),0_0_15px_rgba(255,215,0,0.4)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.8),0_0_25px_rgba(255,215,0,0.7)] rounded-r-2xl transition-all duration-300 sm:p-2'>Services </h1></div>
       <div className='w-6/7 gap-2 lg:gap-10 mt-5 lg:mt-15 m-auto h-35 lg:h-80  rounded-4xl flex justify-center bg-black/40 items-center text-white  '>
-      <div className='sm:w-1/6 w-30 h-full flex overflow-y-hidden   items-center '><img className='w-full   pl-5 ' src="img/hallbook1.webp" loading='lazy' alt="" /></div>
+      <div className='sm:w-1/6 w-30 h-full flex overflow-y-hidden   items-center '><img className='w-full   pl-5 ' src="img/hallbook1.webp"  alt="" /></div>
       <div className='w-4/5  justify-center h-4/5  flex flex-col items-center gap-2 sm:gap-5 '>
         <h1 className='fo italic lg:text-3xle w-full flex justify-center text-[16px] lg:text-4xl '>Party Hall</h1>
         <p className='pfo text-[6px] sm:text-[8px] lg:text-[16px] '>Celebrate your special moments in our beautifully designed premium party hall, crafted to offer elegance, comfort, and a luxurious ambiance. Whether it's a birthday, anniversary, family gathering, or any celebration, our spacious hall provides the perfect setting for unforgettable experiences. With modern interiors, comfortable seating, and a welcoming atmosphere, we ensure every event becomes truly memorable.</p>
@@ -74,7 +74,7 @@ transition-all duration-300  '><button className='cursor-pointer'>Book Party Hal
 hover:shadow-[0_10px_30px_rgba(0,0,0,0.8),0_0_25px_rgba(255,215,0,0.7)]
 transition-all duration-300  '><button className='cursor-pointer'>View Menu </button></div></Link>
       </div>
-      <div className='sm:w-1/6 w-30 h-full flex overflow-y-hidden  items-center'><img className='w-full  pr-5 ' src="img/restro.webp" loading='lazy' alt="" /></div>
+      <div className='sm:w-1/6 w-30 h-full flex overflow-y-hidden  items-center'><img className='w-full  pr-5 ' src="img/restro.webp"  alt="" /></div>
       
       </div>
       <div className='w-6/7 gap-2 lg:gap-10 flex  mt-5 lg:mt-15 m-auto h-35 lg:h-80 rounded-4xl lg:flex items-center  bg-black/40 items-center text-white  '>
