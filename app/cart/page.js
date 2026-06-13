@@ -17,6 +17,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const page = () => {
     const [form, setform] = useState({name:"",address:"",phone:""})
+    const [load, setload] = useState(false);
     
     const {data:session,status}=useSession()
         const [cartdata, setcartdata] = useState([])
@@ -60,6 +61,7 @@ const page = () => {
             if(x){
 
                 setcartdata(x.cart)
+                setload(true);
                 let u = 0
                 x.cart.map((e)=>{
                     
@@ -133,6 +135,12 @@ rzp1.open();
             </div>
         )
     }
+    if (!load) {
+    return (
+       <div className="fixed inset-0 flex items-center justify-center bg-black">
+      <div className="h-16 w-16 animate-spin rounded-full border-4 border-yellow-400 border-t-transparent"></div>
+    </div>
+    )}
   return (
     
     <div className='w-screen  min-h-screen max-h-fit flex flex-col border '>

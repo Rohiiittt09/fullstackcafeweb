@@ -57,9 +57,9 @@ const page = () => {
 
   if (!load) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        Loading...
-      </div>
+       <div className="fixed inset-0 flex items-center justify-center bg-black">
+      <div className="h-16 w-16 animate-spin rounded-full border-4 border-yellow-400 border-t-transparent"></div>
+    </div>
     );
   }
   return (
